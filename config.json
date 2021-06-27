@@ -25,7 +25,7 @@
     "curl_allow_insecure_ssl_host": false
   },
   "schema": {
-    "device": "device(subsystem=event)",
+    "device": "device(subsystem=input)",
     "require_api_key": "bool",
     "disable_auth" : "bool",
     "debug": "bool",
