@@ -16,6 +16,9 @@
   "ports_description": {
     "80/tcp": "Web interface"
   },
+  "devices": {
+    "/dev/input/event0"
+  },
   "options": {
     "require_api_key": false,
     "disable_auth": false,
