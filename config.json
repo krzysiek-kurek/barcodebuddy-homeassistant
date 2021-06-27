@@ -16,10 +16,8 @@
   "ports_description": {
     "80/tcp": "Web interface"
   },
-  "devices": {
-    "/dev/input/event0"
-  },
   "options": {
+    "device": null,
     "require_api_key": false,
     "disable_auth": false,
     "debug": false,
@@ -27,6 +25,7 @@
     "curl_allow_insecure_ssl_host": false
   },
   "schema": {
+    "device": "device(subsystem=event)",
     "require_api_key": "bool",
     "disable_auth" : "bool",
     "debug": "bool",
