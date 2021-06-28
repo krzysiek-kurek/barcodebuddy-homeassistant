@@ -18,9 +18,9 @@
   },
   "options": {
     "device": null,
-     "environment": {
-       "ATTACH_BARCODESCANNER": "true"
-     }, 
+    "environment": {
+      "ATTACH_BARCODESCANNER": "true"
+    }, 
     "attach_barcodescanner": false,
     "require_api_key": false,
     "disable_auth": false,
@@ -36,5 +36,5 @@
     "debug": "bool",
     "curl_allow_insecure_ssl_ca": "bool",
     "curl_allow_insecure_ssl_host": "bool"
-  },
+  }
 }
