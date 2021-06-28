@@ -30,6 +30,7 @@
   },
   "schema": {
     "device": "device(subsystem=input)",
+    "environment": "dict", 
     "attach_barcodescanner": "bool",
     "require_api_key": "bool",
     "disable_auth" : "bool",
