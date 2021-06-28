@@ -27,6 +27,7 @@
   },
   "schema": {
     "device": "device(subsystem=input)",
+    "attach_barcodescanner": "bool",
     "require_api_key": "bool",
     "disable_auth" : "bool",
     "debug": "bool",
@@ -34,6 +35,6 @@
     "curl_allow_insecure_ssl_host": "bool"
   },
   "environment": {
-    "ATTACH_BARCODESCANNER": null
+    "ATTACH_BARCODESCANNER": { attach_barcodescanner }
   }
 }
