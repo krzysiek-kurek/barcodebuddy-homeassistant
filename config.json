@@ -35,6 +35,6 @@
     "curl_allow_insecure_ssl_host": "bool"
   },
   "environment": {
-    "ATTACH_BARCODESCANNER": "{attach_barcodescanner}"
+    "ATTACH_BARCODESCANNER": "{arch}"
   }
 }
